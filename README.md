@@ -1,19 +1,19 @@
-Predicting Titanic Survival: An End-to-End Data Analysis and Machine Learning Project
+## Predicting Titanic Survival: An End-to-End Data Analysis and Machine Learning Project
 
 
 
 
 
-Overview
+## Overview
 This project tackles the classic Kaggle "Titanic: Machine Learning from Disaster" challenge. The goal is to build a predictive model that answers a crucial question: what factors determined whether a passenger survived the tragic sinking of the Titanic? This end-to-end analysis demonstrates my ability to handle real-world data, perform insightful exploratory data analysis (EDA), engineer meaningful features, and implement machine learning algorithms to solve a binary classification problem. By leveraging Python and key data science libraries, I aimed to not just build a model, but also to understand the underlying patterns in the data that contributed to survival.
 
-Key Objectives
+## Key Objectives
 Comprehensive Data Exploration: Uncover key trends and relationships within the Titanic passenger data using various visualization techniques.
 Strategic Data Preprocessing: Handle missing values and transform categorical features to prepare the data for machine learning models.
 Feature Engineering for Insight: Create new features that potentially enhance the predictive power of the models.
 Rigorous Model Building & Evaluation: Implement and compare multiple machine learning classifiers, evaluating their performance using appropriate metrics and cross-validation to ensure robust generalization.
 Clear and Actionable Insights: Communicate the key factors influencing survival in a clear and understandable manner.
-Project Highlights
+## Project Highlights
 In-depth Exploratory Data Analysis (EDA): Revealed significant correlations between survival rate and factors like passenger class, gender, and age. For instance, first-class passengers had a ~63% higher survival rate compared to third-class passengers, and the survival rate for females was ~74% higher than for males. Visualizations illustrating these trends can be found within the accompanying Jupyter Notebook.
 Effective Data Cleaning: Successfully handled missing age values by employing median imputation stratified by passenger class, a more nuanced approach than simple mean imputation. Missing 'Embarked' values were imputed using the mode. Categorical features like 'Sex' and 'Embarked' were transformed using one-hot encoding to be compatible with machine learning algorithms.
 Feature Engineering for Predictive Power: Engineered the "FamilySize" feature by combining the number of siblings/spouses and parents/children aboard, providing a potentially more informative predictor than individual family member counts. Additionally, created an "IsAlone" feature to identify passengers traveling without family.
